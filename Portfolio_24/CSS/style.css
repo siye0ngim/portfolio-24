@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    background:#191D23;
+    color:white;
+    font-family:"Pretendard";
+}
+
+/* ----------------------------TOP BAR START---------------------------- */
+
+.topBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:15px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; 
+    background:none;
+
+    .logo {
+        margin: 20px;
+    }
+
+    .menuBar {
+        float:right;
+
+        ul {
+            display: flex;
+            list-style-type: none;
+            margin: 0 80px 0 0 ;
+            padding: 0;
+
+            li {
+                margin-left: 40px; 
+            }
+
+            a {
+                text-decoration: none;
+                transition:0.2s
+            }
+
+            a:hover {
+                opacity:50%;
+                transition:0.2s
+            }
+        }
+    }
+}
+
+/* ----------------------------TOP BAR END---------------------------- */
+
+/* ----------------------------HOME START---------------------------- */
+.home {
+    height:100vh;
+
+    .words {
+        text-align:center;
+
+        .title {
+            font-size:60px;   
+        }
+
+        .subtitle {
+            font-size:30px;
+        }
+    }
+}
+
+/* ----------------------------HOME END---------------------------- */
